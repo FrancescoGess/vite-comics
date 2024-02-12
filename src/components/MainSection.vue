@@ -152,7 +152,7 @@
 
 .container-content{
     height: 100%;
-
+    padding-top: 50px;
     background-color: #1C1C1C;
 }
 
@@ -166,7 +166,7 @@
     text-transform: uppercase;
 
     position: absolute;
-    bottom: -25px;
+    bottom: 25px;
     left: 150px;
 }
 
