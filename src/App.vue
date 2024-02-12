@@ -5,12 +5,14 @@ import MainSection from './components/MainSection.vue';
 import CardFumetti from './components/CardFumetti.vue';
 import LastMainSection from './components/LastMainSection.vue';
 import FooterContact from './components/FooterContact.vue';
+import Jumbotron from './components/Jumbotron.vue';
 
 export default {
     components: {
         HeaderNav,
-        MainSection,
+        Jumbotron,
         CardFumetti,
+        MainSection,
         LastMainSection,
         FooterContact
     }
@@ -20,8 +22,9 @@ export default {
 
 <template>
     <HeaderNav/>
-    <MainSection></MainSection>
+    <Jumbotron></Jumbotron>
     <CardFumetti></CardFumetti>
+    <MainSection></MainSection>
     <LastMainSection></LastMainSection>
     <FooterContact></FooterContact>
 </template>
